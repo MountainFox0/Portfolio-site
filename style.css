@@ -1,0 +1,309 @@
+@charset"utf-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color:#000000;
+  font-size: 19px;
+  line-height:  2;
+  }
+
+p,h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+}
+
+#index .content img {vertical-align: bottom;
+     height: 55%;
+     width: 55%;}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000000; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width:960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.global-nav li a {
+  color: #000000;
+}
+
+.global-nav li a:hover{
+  border-bottom: 2px solid #000000;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.global-nav li img {
+ height: 30%;
+ width: 30%;
+ float: right;
+ line-height: 0;
+}
+
+.face{
+  position: relative; right:59px;
+}
+
+#wrap{
+  clear: both;
+}
+
+.content{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.footer{
+  text-align: center;
+  color: #000000;
+  padding: 20px 0;
+}
+
+.footer small{
+  font-size:12px;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#index .content{
+  margin-top: 190px;
+}
+
+#index h1{
+  margin-bottom: 50px;
+}
+
+#index footer{
+  width: 960;
+  margin:150px auto 0 auto;
+  text-align:center;
+}
+
+#wrap{
+  clear: both;
+  background-color: #ffffff;
+  padding: 35px 0;
+}
+
+.main-center{
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 41px;
+  font-weight: 300;
+}
+
+p{
+  font-family: 'A-OTF 中ゴシックBBB Pr6N Med';
+  font-size:18px;
+}
+
+#about .profile-txt{
+  float: center; 
+}
+
+#about #wrap img{
+     height: 55%;
+     width: 55%;
+     float: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear:both;
+}
+
+section{
+  margin-bottom: 35px;
+}
+
+#about {
+  text-align: center;
+}
+
+#about p{
+  display: inline-block;
+  text-align: left;
+}
+
+#index #wrap{
+  background-color: #ffffff;
+  }
+
+
+#Advantages #wrap {
+  background-color: #ffffff;
+}
+
+#Advantages h1 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#Advantages h2 {
+  font-family: 'A-OTF 中ゴシックBBB Pr6N Med';
+  font-size:16px;
+}
+
+#Advantages section {
+  float: left;
+  margin-right: 40px;
+}
+
+#Advantages  p {
+  font-family: 'A-OTF 中ゴシックBBB Pr6N Med';
+  font-size:12px;
+}
+
+#Advantages .icon img {
+  width: 40%;
+  height: auto;
+}
+
+#Advantages .one .ttl  {
+  margin-left: 67px;
+}
+
+#Advantages .one .icon{
+  margin-left: -71px;
+}
+#Advantages .one .text01{
+  margin-top: px;
+}
+
+#Advantages .two{
+  text-align: center;
+  position: relative;
+  bottom:500px;
+  margin-bottom: -500px;
+}
+
+#Advantages .two  .text01 {
+ text-align: left;
+ position: relative;
+ right: -340px;
+ margin-right: 340px;
+  margin-top:35px;
+}
+
+#Advantages .three {
+  text-align: right;
+  position: relative;
+  bottom:500px;
+  margin-bottom: -500px;
+}
+
+#Advantages .three .icon {
+  position: relative;
+  right: -111px;
+}
+
+#Advantages .three .text01 {
+  text-align: left;
+  position: relative;
+  right: -690px;
+  margin-right: 640px;
+  margin-top: 35px;
+}
+
+#works h1 {
+  text-align: center;
+}
+
+#works #wrap img {
+  height:98%;
+  width:98%;
+  text-align: center;
+  position: relative;
+  top:-50px;
+  }
+
+#works #wrap h2,h3,h4,h5,h6,h7  {
+  font-family: 'A-OTF 中ゴシックBBB Pr6N Med';
+  font-size:21px;
+  font-weight: bold;
+  position: relative;
+  left:20px;
+  top:-65px;
+}
+
+#works #wrap p{
+  font-family: 'A-OTF 中ゴシックBBB Pr6N Med';
+  font-size:14px;
+  position: relative;
+  left:20px;
+}
+
+#works #wrap .profile-text1 p{
+  top:-75px;
+}
+
+#works #wrap .profile-text2 p{
+  top:-76px;
+}
+
+#works #wrap .profile-text3 p{
+  top:-85px;
+}
+
+#works #wrap .profile-text4 p{
+  top:-89px;
+}
+
+#works #wrap .profile-text5 p{
+  top:-103px;
+}
+
+#works #wrap .profile-text6 p{
+  top:-56px;
+}
+
+footer{
+  text-align: center;
+}
+
+hr{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
